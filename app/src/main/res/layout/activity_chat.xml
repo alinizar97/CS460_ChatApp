@@ -1,0 +1,64 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="#FFD83D68"
+        android:textColor="#FFFFFF" />
+
+    <!-- Add Partner Button -->
+    <Button
+        android:id="@+id/btnAddChatPartner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Partner"
+        android:layout_below="@id/btnLogout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:background="#FFD83D68"
+        android:textColor="#FFFFFF" />
+
+    <!-- RecyclerView for Messages -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewMessages"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/btnAddChatPartner"
+        android:layout_above="@id/inputLayout"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Message Input and Send Button -->
+    <LinearLayout
+        android:id="@+id/inputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="Type a message"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:background="#FFD83D68"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</RelativeLayout>

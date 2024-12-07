@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "955353610830",
+    "project_id": "chatappcs460-ali",
+    "storage_bucket": "chatappcs460-ali.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955353610830:android:de68057c76f7dc2b0b611f",
+        "android_client_info": {
+          "package_name": "com.example.chatappcs460"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkpkcGsOHh7Vhf5IG808GUyMQY8HbNKX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955353610830:android:f75831fbdcaa0c290b611f",
+        "android_client_info": {
+          "package_name": "com.example.chatappcs460_ali"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkpkcGsOHh7Vhf5IG808GUyMQY8HbNKX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
